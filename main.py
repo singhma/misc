@@ -26,7 +26,7 @@ while current_date <= end_date:
             fees_savings +=830+350
             petrol_savings+=40*2
             #holiday_savings +=200
-            rail_tickets_savings+=40*2
+            rail_tickets_savings+=60*2
             kharcha_pani_savings +=150*2        
     current_date += timedelta(days=1)
     if current_date.weekday() == 0:  # If it's Monday, increment week count
